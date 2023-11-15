@@ -87,3 +87,26 @@ h2 {
     font-weight: 500;
     margin-left: 10px;
 }
+
+
+
+.divider_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.divider {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3498db; /* Circle color */
+
+  /* Apply square style to even dividers */
+  &:nth-child(odd) {
+    border-radius: 0;
+    background-color: #e74c3c; /* Square color */
+  }
+}
