@@ -2,6 +2,15 @@ body {
     background-color: #FFF9EE;
 }
 
+a {
+    color: black;
+    transition: background-color 0.3 ease;
+}
+
+a:hover {
+    background-color:#A09278;
+}
+
 h1, h2, h3, h4, h5, blockquote {
     font-family: 'Roboto Serif', sans-serif;
 }
