@@ -2,7 +2,7 @@ body {
     background-color: #FFF9EE;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, blockquote {
     font-family: 'Roboto Serif', sans-serif;
 }
 
@@ -19,7 +19,10 @@ h2 {
 
 h3 {
     font-weight: 300;
-    margin-top: 60px;
+    margin-top: 80px;
+    font-size: 20px;
+    border-top: solid black 0.1px;
+    padding-top: 15px;
 }
 
 h4, h5 {
@@ -28,8 +31,7 @@ h4, h5 {
 
 p {
     font-family: 'Nanum Myeongjo', sans-serif;
-    width: 90%;
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 18px;
 }
 
@@ -37,13 +39,35 @@ header {
     height: 20px;
 }
 
+.Iskander {
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
 .Iskander_header {
     align-items: center;
     justify-content: center;
     height: 70vh;
     padding-top: 220px;
-    margin-left: 10px;
+    margin-left: 14px;
     width: 70%;
     /* margin: auto; */
     align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+}
+
+blockquote {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-indent: -6px;
+    color: #A09278;
 }
