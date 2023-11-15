@@ -1,3 +1,58 @@
 h1, h2, h3, h4, p {
     font-family: 'Roboto', serif;
 }
+
+h4 {
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+header {
+    background: linear-gradient(to bottom, #31333D, #484D62); 
+    color : white;
+    padding: 25px 30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    /* margin-left: 40px; */
+    /* margin-bottom: 20px; */
+    width: %;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 15px;
+}
+
+.paragraphs {
+    border-left: solid gray 1px;
+    margin-left: 20px;
+}
+
+.Norman h4, h2 {
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.Norman h2 {
+    margin-bottom: 50px;
+}
+
+
+h3 {
+    margin-top: 70px;
+    margin-left: 5px;
+    font-size: 26px;
+    font-weight: 600;
+    /* background-color: tomato; */
+}
