@@ -1,3 +1,8 @@
+header {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 body {
     background-color:#D0FBFF;
 }
@@ -17,14 +22,14 @@ a {
     margin: auto;
 }
 
-.Lorusso_header {
+.Lorusso_header, .Norman_header, .Iskander_header {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-family: 'righteous', sans serif;
-    font-size: 80px;
+    font-size: 50px;
     /* margin: 0; */
     line-height: 1.2;
     background-color: #FF7558;
