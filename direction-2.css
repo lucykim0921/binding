@@ -18,6 +18,11 @@ a {
 }
 
 
+.paragraphs {
+    overflow-y: scroll;
+    /* height: 100vh; */
+}
+
 .collapsible a:hover {
     color: #FDDE3B;
 }
@@ -75,7 +80,7 @@ h3 {
     padding-left: 20px;
     margin-top: 70px;
     font-size: 25px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 
@@ -100,6 +105,19 @@ blockquote {
     margin-bottom: 40px;
     margin-left: 30px;
     line-height: 1.4;
+}
+
+.blockquote_div {
+    position: relative;
+}
+
+.blockquote_div p {
+    font-family: 'archivo', sans serif;
+    font-weight: 800;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    margin: 0;
 }
 
 h5 {
