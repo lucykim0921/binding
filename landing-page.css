@@ -95,10 +95,21 @@
     background-color: white;
     padding-top: 1px;
     padding-bottom: 1px;
+    padding-right: 20px;
     /* margin-left: 10px;
     margin-right: 10px; */
     margin-top: 10px;
-    margin-right: 35px;
+    margin-right: 25px;
+}
+
+.summary_text a {
+    display: block;
+    text-align: right; 
+    font-size: 30px; 
+    margin-top: 10px;
+    color: black;
+    /* padding-right: 20px; */
+    padding-bottom: 10px;
 }
 
 .articles_summary p {
@@ -109,20 +120,6 @@
     margin-left: 20px;
     margin-bottom: 10px;
     width: 90%;
-}
-
-.summary_text {
-    /* content: ' link to article \25B6';  */
-    display: block; 
- 
-}
-
-.summary_text a {
-    text-align: right; 
-    font-size: 20px; 
-    margin-top: 10px;
-    color: black;
-    text-decoration: underline;
 }
 
 .colophon h3 {
