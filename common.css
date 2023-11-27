@@ -1,12 +1,194 @@
+/* General CSS  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#F2EDE5;
+}
+
+/* Nav bar header  */
+header {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 .logo {
     margin: auto;
     text-align: center;
 }
 
-section {
-    margin-bottom: 50px;
+.logo h1 {
+    font-family: 'archivo', sans serif;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
 }
 
 a {
     text-decoration: none;
+    color: white;
+    transition: color 0.1s ease-in-out;
+}
+
+/* Article heading  */
+/* Article heading  */
+/* Article heading  */
+        .heading {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+    /* Date  */
+        h5 {
+            font-weight: 300;
+            text-align: right;
+            margin-right: 10px;
+            margin-bottom: 30px;
+        }
+
+    /* Article title  */
+        h1 {
+            font-family: 'righteous', sans serif;
+            font-size: 40px;
+            display: inline-block;
+            line-height: 1.2;
+            background-color: #C62321;
+            border-radius: 0 220px 220px 0;
+            width: 90%;
+            margin-top: 0;
+            margin-bottom: 40px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+    /* Article subtitle  */
+        h2 {
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 500;
+            margin: auto;
+            width: 90%;
+            margin-bottom: 30px;
+        }
+
+    /* Author name  */
+        h4 {
+            font-size: 23px;
+            background-color: #FFB815;
+            border-radius: 200px 0 0 200px;
+            padding: 10px;
+            padding-right: 20px;
+            text-align: right;
+        }
+
+
+/* Article section  */
+section {
+    margin-bottom: 50px;
+}
+
+h2, h4, h5, blockquote {
+    font-family: 'league spartan', sans serif;
+}
+
+/* divider  */
+.divider_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+  
+  .divider {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #305AA0; 
+  
+    &:nth-child(odd) {
+      border-radius: 0;
+      background-color: #C62321; 
+    }
+  }
+
+  /* Subheading  */
+h3 {
+    color: white;
+    font-family: 'righteous', sans serif;
+    background-color: #C62321;
+    padding: 20px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-top: 70px;
+    font-size: 25px;
+    transition: all 1s ease;
+}
+
+.h3_container {
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/* paragraphs  */
+p {
+    font-family: 'archivo', sans serif;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* blockquote  */
+blockquote {
+    font-weight: 400;
+    font-size: 25px;
+    text-indent: -6px;
+    margin: 45px 0 45px 45px;
+    line-height: 1.2;
+    position: relative;
+    width: 80%;
+}
+
+.blockquote_div {
+    position: relative;
+}
+
+.blockquote_circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #C62321; 
+    position: absolute;
+    left: 20px;
+    transform: translateY(-20%);
+}
+
+
+/* footer  */
+footer {
+    background-color: black;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 20px;
+    padding-left: 30px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 0;
 }
