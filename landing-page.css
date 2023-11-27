@@ -21,13 +21,13 @@
 }
 
 .articles {
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
+    /* background-color: white; */
     margin-bottom: 100px;
-    border-radius: 0 70px 70px 0;
+    /* border-radius: 0 70px 70px 0; */
 }
 
 .articles_summary {
@@ -41,13 +41,12 @@
 }
 
 .articles_summary summary {
-    background-color: #4448AC;
-    color: #fff;
+    background-color: #FFB815;
     border-radius: 0 100px 100px 0;
     font-family: 'league spartan', sans serif;
     font-size: 25px;
     font-weight: 600;
-    padding: 30px;
+    padding: 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +54,7 @@
 }
 
 .articles_summary summary:hover {
-    background-color: tomato;
+    background-color: #FF8A00;
 }
 
 .articles_summary_title {
@@ -81,7 +80,7 @@
     font-weight: 600;
     margin: 0;
     padding: 0;
-    /* background-color: #4448AC; */
+    background-color: transparent;
 }
 
 .articles_summary h2 {
@@ -92,19 +91,51 @@
     padding: 0;
 }
 
+.summary_text {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: 10px;
+    margin-right: 35px;
+}
+
 .articles_summary p {
     margin-top: 20px;
-    border-left: solid black 1px;
-    padding-left: 15px;
+    /* border-left: solid black 3px;
+    padding-left: 15px; */
+    padding-left: 5px;
     margin-left: 20px;
-    width: 80%;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.summary_text {
+    /* content: ' link to article \25B6';  */
+    display: block; 
+ 
+}
+
+.summary_text a {
+    text-align: right; 
+    font-size: 20px; 
+    margin-top: 10px;
+    color: black;
+    text-decoration: underline;
 }
 
 .colophon h3 {
     margin-top: 0;
-    background-color: #C62321;
+    background-color: #004FBE;
 }
 
 .colophon {
     margin-top: 30px;
+    background-color: #FEFBF8;
+    padding-bottom: 30px;
+}
+
+.colophon p:nth-child(4) {
+    font-size: 15px;
 }

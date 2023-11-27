@@ -91,7 +91,7 @@ a {
 
 /* Article section  */
 section {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 h2, h4, h5, blockquote {
@@ -111,7 +111,7 @@ h2, h4, h5, blockquote {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #305AA0; 
+    background-color: #004FBE; 
   
     &:nth-child(odd) {
       border-radius: 0;
@@ -180,7 +180,6 @@ footer {
     background-color: black;
     color: white;
     padding: 20px;
-    margin-top: 40px;
 }
 
 footer p {
