@@ -112,6 +112,10 @@
     margin-right: 25px;
 }
 
+details summary::-webkit-details-marker {
+    display:none;
+  }
+
 .summary_text a {
     display: block;
     text-align: right; 
