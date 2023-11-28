@@ -17,6 +17,7 @@ header {
 .logo {
     margin: auto;
     text-align: center;
+    max-width: 360px;
 }
 
 .logo h1 {
@@ -129,7 +130,7 @@ h3 {
     padding-left: 20px;
     margin-top: 70px;
     font-size: 25px;
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
 }
 
 .h3_container {
@@ -171,8 +172,8 @@ blockquote {
     border-radius: 50%;
     background-color: #C62321; 
     position: absolute;
-    left: 20px;
-    transform: translateY(-20%);
+    left: 26px;
+    transform: translateY(-25%);
 }
 
 /* footer  */
@@ -190,13 +191,64 @@ footer p {
 /* Tablet media query  */
 /* Tablet media query  */
 /* Tablet media query  */
-@media (mix-width: 620px) {
+@media (min-width: 720px) {
+    p {
+        width: 60%;
+        font-size: 20px;
+    }
+    
+    .intro_paragraph h2 {
+        width: 60%;
+        font-size: 70px;
+    }
 
+    h3 {
+        font-size: 30px;
+    }
+
+    blockquote {
+        /* font-weight: 500; */
+        font-size: 30px;
+        width: 60%;
+        line-height: 1.3;
+        margin: 60px 0 60px 80px;
+    }
+
+    .blockquote_circle {
+        width: 70px;
+        height: 70px;
+        left: 60px;
+    }
 }
 
 /* Desktop media query */
 /* Desktop media query */
 /* Desktop media query */
-@media (mix-width: 1280px) {
-    
+@media (min-width: 1280px) {
+    p {
+        width: 50%;
+        font-size: 21px;
+    }
+
+    .intro_paragraph h2 {
+        width: 50%;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 33px;
+    }
+
+    blockquote {
+        font-size: 33px;
+        width: 55%;
+        line-height: 1.4;
+        margin: 80px 0 80px 150px;
+    }
+
+    .blockquote_circle {
+        width: 80px;
+        height: 80px;
+        left: 125px;
+    }
 }

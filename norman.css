@@ -1,3 +1,25 @@
 .intro_paragraph h2 {
     font-size: 22px;
 }
+
+/* Tablet media query  */
+/* Tablet media query  */
+/* Tablet media query  */
+@media (min-width: 720px) {
+
+    .intro_paragraph h2 {
+        width: 60%;
+        font-size: 28px;
+    }
+}
+
+/* Desktop media query */
+/* Desktop media query */
+/* Desktop media query */
+@media (min-width: 1280px) {
+  
+    .intro_paragraph h2 {
+        width: 50%;
+        font-size: 32px;
+    }
+}
