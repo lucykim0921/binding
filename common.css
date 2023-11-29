@@ -6,6 +6,7 @@
 --navbar-font: archivo;
 --red: #C62321;
 --yellow: #FFB815;
+--yellow-hover:  #FF8A00;
 --blue: #004FBE;
 --body-background-color: #F2EDE5;
 }
@@ -21,6 +22,7 @@
 
 body {
     background-color: var(--body-background-color);
+    scroll-behavior: smooth;
 }
 
 /* Nav bar header  */
@@ -209,6 +211,30 @@ blockquote {
     transform: translateY(-25%);
 }
 
+/* top button  */
+.top_button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    background-color: var(--yellow);
+    z-index: 5;
+}
+
+.top_button h6 {
+    color: black;
+    font-family: var(--accent-1-font);
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.1s ease-in-out;
+    padding: 4px 6px 4px 6px;
+}
+
+.top_button h6:hover {
+    font-size: 23px;
+    background-color: var(--yellow-hover);
+}
+
 /* footer  */
 footer {
     background-color: black;
@@ -221,6 +247,7 @@ footer p {
     margin-bottom: 0;
     margin-left: 0;
 }
+
 
 /* Tablet media query  */
 /* Tablet media query  */
