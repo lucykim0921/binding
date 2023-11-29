@@ -1,3 +1,18 @@
+/* Variables  */
+:root {
+--accent-1-font: righteous;
+--accent-2-font: league spartan;
+--paragraph-font: archivo;
+--navbar-font: archivo;
+--red: #C62321;
+--yellow: #FFB815;
+--blue: #004FBE;
+--body-background-color: #F2EDE5;
+}
+
+
+
+
 /* General CSS  */
 * {
     margin: 0;
@@ -5,7 +20,7 @@
 }
 
 body {
-    background-color:#F2EDE5;
+    background-color: var(--body-background-color);
 }
 
 /* Nav bar header  */
@@ -21,7 +36,7 @@ header {
 }
 
 .logo h1 {
-    font-family: 'archivo', sans serif;
+    font-family: var(--navbar-font);
     font-weight: 200;
     font-size: 15px;
     background-color: black;
@@ -33,7 +48,7 @@ header {
 }
 
 .logo h1:hover {
-    background-color: #C62321;
+    background-color: var(--red);
 }
 
 a {
@@ -47,7 +62,7 @@ a {
 /* Article heading  */
         .heading {
             margin-top: 50px;
-            margin-bottom: 120px;
+            margin-bottom: 170px;
         }
 
     /* Date  */
@@ -60,18 +75,16 @@ a {
 
     /* Article title  */
         h1 {
-            font-family: 'righteous', sans serif;
+            font-family: var(--accent-1-font);
             font-size: 40px;
             display: inline-block;
             line-height: 1.2;
-            background-color: #C62321;
+            background-color: var(--red);
             border-radius: 0 220px 220px 0;
             width: 90%;
             margin-top: 0;
             margin-bottom: 40px;
-            padding-left: 20px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding: 20px;
         }
 
     /* Article subtitle  */
@@ -79,18 +92,23 @@ a {
             font-size: 30px;
             line-height: 1.2;
             font-weight: 500;
-            margin: auto;
-            width: 90%;
+            padding-left: 20px;
+            max-width: 500px;
             margin-bottom: 30px;
+        }
+
+        .intro_paragraph p {
+            font-weight: 500;
+            font-size: 20px;
         }
 
     /* Author name  */
         h4 {
             font-size: 23px;
-            background-color: #FFB815;
+            background-color: var(--yellow);
             border-radius: 200px 0 0 200px;
             padding: 10px;
-            padding-right: 20px;
+            padding-right: 30px;
             text-align: right;
             min-width: 300px;
             float: right;
@@ -98,12 +116,9 @@ a {
 
 
 /* Article section  */
-section {
-    /* margin-bottom: 50px; */
-}
 
 h2, h4, h5, blockquote {
-    font-family: 'league spartan', sans serif;
+    font-family: var(--accent-2-font);
 }
 
 /* divider  */
@@ -116,10 +131,6 @@ h2, h4, h5, blockquote {
 }
 
 .divider_section {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    /* flex-direction: row; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
     grid-template-rows: repeat(1, 1fr); 
@@ -130,11 +141,11 @@ h2, h4, h5, blockquote {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #004FBE; 
+    background-color: var(--blue); 
   
     &:nth-child(odd) {
       border-radius: 0;
-      background-color: #C62321; 
+      background-color: var(--red); 
     }
   }
 
@@ -145,8 +156,8 @@ h2, h4, h5, blockquote {
   /* Subheading  */
 h3 {
     color: white;
-    font-family: 'righteous', sans serif;
-    background-color: #C62321;
+    font-family: var(--accent-1-font);
+    background-color: var(--red);
     padding: 20px;
     margin-bottom: 40px;
     padding-left: 20px;
@@ -164,7 +175,7 @@ h3 {
 
 /* paragraphs  */
 p {
-    font-family: 'archivo', sans serif;
+    font-family: var(--paragraph-font);
     line-height: 1.5;
     font-size: 18px;
     font-weight: 300;
@@ -192,7 +203,7 @@ blockquote {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #C62321; 
+    background-color: var(--red); 
     position: absolute;
     left: 26px;
     transform: translateY(-25%);
@@ -220,9 +231,8 @@ footer p {
         font-size: 20px;
     }
     
-    .intro_paragraph h2 {
-        width: 60%;
-        font-size: 70px;
+    .intro_paragraph p {
+        font-size: 24px;
     }
 
     h3 {
@@ -244,12 +254,29 @@ footer p {
     }
 
     h1 {
-        width: 70%;
-        font-size: 45px;
+        max-width: 65%;
+        font-size: 48px;
+        padding: 30px;
+    }
+
+    h2 {
+        max-width: 600px;
+        font-size: 35px;
+        padding-left: 30px;
     }
 
     h4 {
         font-size: 30px;
+        padding-left: 30px;
+        margin-top: 40px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .heading {
+        margin-bottom: 200px;
     }
 
 }
@@ -263,9 +290,8 @@ footer p {
         font-size: 21px;
     }
 
-    .intro_paragraph h2 {
-        width: 50%;
-        font-size: 40px;
+    .intro_paragraph p {
+        font-size: 25px;
     }
 
     h3 {
@@ -292,8 +318,18 @@ footer p {
         padding: 40px 20px 40px 50px;
     }
 
+    h2 {
+        max-width: 700px;
+        font-size: 40px;
+        padding-left: 40px;
+    }
+
     h4 {
         font-size: 35px;
+    }
+
+    .heading {
+        margin-bottom: 250px;
     }
 }
 
