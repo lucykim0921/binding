@@ -381,6 +381,15 @@ footer p {
         margin-top: 50px;
         width: 30%;
     }
+
+    .logo h1 {
+        font-size: 19px;
+    }
+
+    .logo h1:hover {
+        font-size: 21px;
+    }
+
 }
 
 /* All these media queries just for the divider.. */
