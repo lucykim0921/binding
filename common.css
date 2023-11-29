@@ -29,6 +29,11 @@ header {
     padding: 5px;
     width: 50%;
     margin: auto;
+    transition: 0.3 ease-in-out;
+}
+
+.logo h1:hover {
+    background-color: #C62321;
 }
 
 a {
@@ -203,6 +208,7 @@ footer {
 footer p {
     font-size: 16px;
     margin-bottom: 0;
+    margin-left: 0;
 }
 
 /* Tablet media query  */
@@ -291,6 +297,9 @@ footer p {
     }
 }
 
+/* All these media queries just for the divider.. */
+/* All these media queries just for the divider.. */
+/* All these media queries just for the divider.. */
 @media (min-width: 530px) {
     .divider_section:nth-child(n+3) {
         display: grid;
