@@ -34,7 +34,10 @@ header {
 .logo {
     margin: auto;
     text-align: center;
-    max-width: 360px;
+    max-width: 170px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
 }
 
 .logo h1 {
@@ -42,15 +45,16 @@ header {
     font-weight: 200;
     font-size: 15px;
     background-color: black;
-    border-radius: 50px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 5px 12px;
     width: 50%;
     margin: auto;
-    transition: 0.3 ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .logo h1:hover {
     background-color: var(--red);
+    font-size: 17px;
 }
 
 a {
@@ -253,6 +257,7 @@ footer p {
 /* Tablet media query  */
 /* Tablet media query  */
 @media (min-width: 720px) {
+    
     p {
         width: 60%;
         font-size: 20px;
