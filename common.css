@@ -280,7 +280,7 @@ footer p {
         left: 60px;
     }
 
-    h1 {
+    .heading h1 {
         max-width: 65%;
         font-size: 48px;
         padding: 30px;
