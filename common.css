@@ -108,6 +108,14 @@ a {
             font-size: 20px;
         }
 
+    /* heading line  */
+
+    .heading_line {
+        border: black solid 2px;
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
     /* Author name  */
         h4 {
             font-size: 23px;
@@ -311,6 +319,11 @@ footer p {
         background-color: var(--yellow-hover);
     }
 
+    .heading_line {
+        margin-top: 50px;
+        width: 50%;
+    }
+
 }
 
 /* Desktop media query */
@@ -362,6 +375,11 @@ footer p {
 
     .heading {
         margin-bottom: 250px;
+    }
+
+    .heading_line {
+        margin-top: 50px;
+        width: 30%;
     }
 }
 
