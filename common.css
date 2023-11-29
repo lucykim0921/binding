@@ -234,11 +234,6 @@ blockquote {
     padding: 4px 6px 4px 6px;
 }
 
-.top_button h6:hover {
-    font-size: 23px;
-    background-color: var(--yellow-hover);
-}
-
 /* footer  */
 footer {
     background-color: black;
@@ -309,6 +304,11 @@ footer p {
 
     .heading {
         margin-bottom: 200px;
+    }
+
+    .top_button h6:hover {
+        font-size: 23px;
+        background-color: var(--yellow-hover);
     }
 
 }
